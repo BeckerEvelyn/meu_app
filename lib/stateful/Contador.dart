@@ -13,9 +13,9 @@ class _ContadorState extends State<Contador>{
   int contador = 0;
 
    void incrementar(){
-    setState(() (
+    setState(() {
       contador++;
-      ));
+   });
   }
   
   @override
