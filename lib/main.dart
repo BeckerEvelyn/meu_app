@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:meu_app/inherited/UserData.dart';
+import 'package:meu_app/inherited/UserInfos.dart';
 import 'package:meu_app/stateful/Contador.dart';
 import 'package:meu_app/stateful/DarkMode.dart';
 import 'package:meu_app/stateful/RandomNumber.dart';
+import 'package:meu_app/stateful/exercicio.dart';
 import 'package:meu_app/stateless/Bot%C3%A3o.dart';
 import 'package:meu_app/stateless/User.dart';
 import 'package:meu_app/stateless/semEstado.dart';
@@ -50,7 +52,10 @@ void main(List<String> args) {
  // runApp(DarkMode());
  //runApp(RandomNumber());
 
-runApp(UserData());
+// runApp(Userinfos());
+
+runApp(Loja());
+
 
 
 }

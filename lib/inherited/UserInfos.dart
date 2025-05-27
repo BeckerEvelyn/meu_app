@@ -17,6 +17,7 @@ class Userinfos extends StatelessWidget{
       ),
     );
   }
+}
 
 
 class WelcomeMessage extends StatelessWidget{
