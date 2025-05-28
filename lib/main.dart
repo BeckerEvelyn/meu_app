@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:meu_app/MaterialWidget/App.dart';
+import 'package:meu_app/MaterialWidget/MyMaterial.dart';
 import 'package:meu_app/inherited/UserData.dart';
 import 'package:meu_app/inherited/UserInfos.dart';
 import 'package:meu_app/stateful/Contador.dart';
@@ -54,8 +56,10 @@ void main(List<String> args) {
 
 // runApp(Userinfos());
 
-runApp(Loja());
+// runApp(Loja());
 
+// runApp(Mymaterial());
+runApp(MayApp());
 
 
 }
