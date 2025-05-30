@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:meu_app/WidgetsLayout/WidgetColumn.dart';
 import 'package:meu_app/WidgetsLayout/WidgetConteiner.dart';
+import 'package:meu_app/WidgetsLayout/WidgetRow.dart';
 
 class LayoutApp extends StatelessWidget {
   const LayoutApp({super.key});
@@ -25,7 +27,9 @@ class _MontandoTelaState extends State<MontandoTela> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Widget de layout"),),
-      body: Widgetconteiner(),
+      // body: Widgetconteiner(),
+      // body: Widgetcolumn(),
+      body: WidgetRow(),
     );
   }
 }

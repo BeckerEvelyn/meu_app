@@ -26,22 +26,25 @@ class Widgetconteiner extends StatelessWidget {
       width: 150,
       height: 150,
       padding: EdgeInsets.all(16),
-      color: Colors.red,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(75),
+      color: const Color.fromARGB(255, 172, 81, 233),
+      ),
       alignment: Alignment.center,
       // child: Text("Container", style: TextStyle(fontSize: 35),),
       child: Container(
-        width: 50,
-        height: 50,
-        color: Colors.green,
-        padding: EdgeInsets.all(15),
+        width: 100,
+        height: 100,
+        padding: EdgeInsets.all(5),
         decoration: BoxDecoration(
+          color: const Color.fromARGB(255, 222, 74, 197),
           border: Border.all(
-            color: Colors.black,
-            
-            width: 4
+          color: const Color.fromARGB(255, 251, 252, 253), 
+          width: 4
           ),
-          borderRadius: BorderRadius.circular(12)
+          borderRadius: BorderRadius.circular(50)
         ),
+        child: Icon(Icons.star),
       ),
     );
   }
