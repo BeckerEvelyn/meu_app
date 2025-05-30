@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:meu_app/MaterialWidget/App.dart';
 import 'package:meu_app/MaterialWidget/MyMaterial.dart';
+import 'package:meu_app/WidgetsLayout/LayoutApp.dart';
 import 'package:meu_app/cupertino/MyCupertino.dart';
 import 'package:meu_app/inherited/UserData.dart';
 import 'package:meu_app/inherited/UserInfos.dart';
@@ -68,12 +69,14 @@ void main(List<String> args) {
 // runApp(MyCupertino());
 
 // coo decidir qual widget usar?
-if(Platform.isAndroid){
+
+/* if(Platform.isAndroid){
   runApp(Mymaterial());
 }else{
   runApp(MyCupertino());
-}
+} */
 
+runApp(LayoutApp());
 
 }
 

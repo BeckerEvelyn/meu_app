@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:meu_app/WidgetsLayout/WidgetConteiner.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class LayoutApp extends StatelessWidget {
+  const LayoutApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +23,9 @@ class MontandoTela extends StatefulWidget {
 class _MontandoTelaState extends State<MontandoTela> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: Text("Widget de layout"),),
+      body: Widgetconteiner(),
+    );
   }
 }
