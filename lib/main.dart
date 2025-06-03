@@ -3,10 +3,12 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:meu_app/MaterialWidget/App.dart';
 import 'package:meu_app/MaterialWidget/MyMaterial.dart';
+import 'package:meu_app/WidgetsLayout/Debug.dart';
 import 'package:meu_app/WidgetsLayout/LayoutApp.dart';
 import 'package:meu_app/cupertino/MyCupertino.dart';
 import 'package:meu_app/inherited/UserData.dart';
 import 'package:meu_app/inherited/UserInfos.dart';
+import 'package:meu_app/navega%C3%A7%C3%A3o/Routes.dart';
 import 'package:meu_app/stateful/Contador.dart';
 import 'package:meu_app/stateful/DarkMode.dart';
 import 'package:meu_app/stateful/RandomNumber.dart';
@@ -14,6 +16,8 @@ import 'package:meu_app/stateful/exercicio.dart';
 import 'package:meu_app/stateless/Bot%C3%A3o.dart';
 import 'package:meu_app/stateless/User.dart';
 import 'package:meu_app/stateless/semEstado.dart';
+import 'package:meu_app/usandoAssets/Fonts.dart';
+import 'package:meu_app/usandoAssets/Imagem.dart';
 
 /* void main() {
   runApp(Container(
@@ -76,8 +80,13 @@ void main(List<String> args) {
   runApp(MyCupertino());
 } */
 
-runApp(LayoutApp());
+// runApp(LayoutApp());
+// runApp(Imagem());
+
+// runApp(const MaterialApp(home: Debug(numeroMaximo: 10),));
+
+// NAVEGANDO EM TELAS
+runApp(Routes());
 
 
 }
-

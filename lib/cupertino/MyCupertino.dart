@@ -11,17 +11,3 @@ class MyCupertino extends StatelessWidget {
     );
   }
 }
-
-class cupertino extends StatefulWidget {
-  const cupertino({super.key});
-
-  @override
-  State<cupertino> createState() => _cupertinoState();
-}
-
-class _cupertinoState extends State<cupertino> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
